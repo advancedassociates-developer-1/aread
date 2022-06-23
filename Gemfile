@@ -94,3 +94,5 @@ gem "minitest-test_profile", "~> 0.2.2", :group => :test, :git => "https://githu
 gem "webmock", "~> 3.14", :group => :test, :git => "https://github.com/bblimke/webmock", :branch => "master"
 
 gem "vcr", "~> 6.1", :group => :test, :git => "https://github.com/vcr/vcr", :branch => "master"
+
+gem "rufus-scheduler", "~> 3.8", :git => "https://github.com/jmettraux/rufus-scheduler", :branch => "master"

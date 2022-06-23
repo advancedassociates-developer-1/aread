@@ -47,6 +47,14 @@ GIT
       railties (>= 6.0.0)
 
 GIT
+  remote: https://github.com/jmettraux/rufus-scheduler
+  revision: 3fe5a02b4ceae7901228010a0b58e62a3be0e456
+  branch: master
+  specs:
+    rufus-scheduler (3.8.2)
+      fugit (~> 1.1, >= 1.1.6)
+
+GIT
   remote: https://github.com/kaminari/kaminari
   revision: 53b5a24cea77f95b860ecfa30cb5b606cc93bc38
   branch: master
@@ -251,8 +259,13 @@ GEM
     digest (3.1.0)
     docile (1.4.0)
     erubi (1.10.0)
+    et-orbi (1.2.7)
+      tzinfo
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
+    fugit (1.5.3)
+      et-orbi (~> 1, >= 1.2.7)
+      raabro (~> 1.4)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hashdiff (1.0.1)
@@ -307,6 +320,7 @@ GEM
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
+    raabro (1.4.0)
     racc (1.6.0)
     rack (2.2.3.1)
     rack-protection (2.2.0)
@@ -403,6 +417,7 @@ DEPENDENCIES
   rails!
   redis (~> 4.6)!
   resque (~> 2.2)!
+  rufus-scheduler (~> 3.8)!
   selenium-webdriver
   simplecov
   sprockets-rails
