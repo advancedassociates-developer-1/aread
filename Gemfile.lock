@@ -90,6 +90,12 @@ GIT
       thor (~> 1.0)
       zeitwerk (~> 2.5)
 
+GIT
+  remote: https://github.com/redis/redis-rb.git
+  revision: 4724c1bfde2d5679128ced8ec7b46bac66605b7b
+  specs:
+    redis (4.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -231,6 +237,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails!
+  redis (~> 4.6)!
   selenium-webdriver
   sprockets-rails
   stimulus-rails
