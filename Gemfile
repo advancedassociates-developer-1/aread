@@ -96,3 +96,5 @@ gem "webmock", "~> 3.14", :group => :test, :git => "https://github.com/bblimke/w
 gem "vcr", "~> 6.1", :group => :test, :git => "https://github.com/vcr/vcr", :branch => "master"
 
 gem "rufus-scheduler", "~> 3.8", :git => "https://github.com/jmettraux/rufus-scheduler", :branch => "master"
+
+gem "sendgrid-ruby", ">= 6.6"
