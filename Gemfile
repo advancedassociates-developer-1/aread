@@ -98,3 +98,5 @@ gem "vcr", "~> 6.1", :group => :test, :git => "https://github.com/vcr/vcr", :bra
 gem "rufus-scheduler", "~> 3.8", :git => "https://github.com/jmettraux/rufus-scheduler", :branch => "master"
 
 gem "sendgrid-ruby", ">= 6.6"
+
+gem "airbrake", ">= 13.0", :github => "airbrake/airbrake"

@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/airbrake/airbrake.git
+  revision: af4ab8930fa8b87e88fe355cb06ef86b90f78ce7
+  specs:
+    airbrake (13.0.2)
+      airbrake-ruby (~> 6.0)
+
+GIT
   remote: https://github.com/bblimke/webmock
   revision: 33d8810c2828fc17010e15cc3f21ad2c726a966f
   branch: master
@@ -218,6 +225,8 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    airbrake-ruby (6.1.1)
+      rbtree3 (~> 0.5)
     aws-eventstream (1.2.0)
     aws-partitions (1.600.0)
     aws-sdk-core (3.131.2)
@@ -333,6 +342,7 @@ GEM
     rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
     rake (13.0.6)
+    rbtree3 (0.7.0)
     redis-namespace (1.8.2)
       redis (>= 3.0.4)
     regexp_parser (2.5.0)
@@ -402,6 +412,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  airbrake (>= 13.0)!
   aws-sdk-s3
   capybara
   cssbundling-rails
